@@ -16,15 +16,9 @@ template
 以下を実行して、`package.json`の内容をインストール。<br>
 `$ npm install`
 
-##Grunt command
-$ grunt dev   開発用<br>
-$ grunt style   スタイルガイド生成用<br>
-$ grunt sprite  スプライト画像生成用<br>
-$ grunt ass     アセンブル（テンプレート）構築用<br>
+##Gulp command
+$ gulp dev   開発用<br>
 $ grunt html    HTMLリント<br>
-$ grunt css     CSSリントぉ
+$ grunt css     CSSリントぉ<br>
+$ grunt img     画像最適化<br>
 
-##調査なう
-`rbenv local <バージョン>`でインストールするとパスがおかしくなる<br>
-→なぜか、userからになっちゃう。<br>
-→フォルダ名が原因でした。
